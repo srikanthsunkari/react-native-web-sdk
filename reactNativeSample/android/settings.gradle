@@ -1,0 +1,5 @@
+rootProject.name = 'reactNativeSample'
+include ':react-native-sdk'
+project(':react-native-sdk').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sdk/android')
+
+include ':app'

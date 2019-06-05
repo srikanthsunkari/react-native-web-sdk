@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react-native",
+    "lib": ["es6", "es5", "dom",],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "maxNodeModuleJsDepth": 1,
+    "outDir": "built",
+    "sourceMap": true,
+    "typeRoots": ["./typings"],
+    "types": ["node", "lodash", "express"],
+
+  },
+  "include": [
+    "src/**/*","*.tsx","*.ts"
+  ],
+  "exclude": ["node_modules", "babel.config.js"]
+}
